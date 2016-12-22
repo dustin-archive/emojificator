@@ -8,9 +8,9 @@ html, body {
   height: 100%;
 }
 
-html {}
+// html {}
 
-body {}
+// body {}
 
 .app {
   display: flex;
@@ -22,3 +22,6 @@ body {}
     flex: 1;
   }
 }
+
+// Modifiers are imported at the end of the stylesheet to keep precedence
+@import 'modifiers';

@@ -2,9 +2,8 @@
 <script src='script.js'></script>
 <template>
   <div class='app'>
-    <h1> um hello? </h1>
-    <!-- <picker></picker> -->
+    <picker></picker>
     <workspace></workspace>
-    <!-- <manager></manager> -->
+    <manager></manager>
   </div>
 </template>
