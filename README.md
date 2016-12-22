@@ -1,4 +1,4 @@
-# dough
+# Emojificator
 
 > A Vue.js project
 
