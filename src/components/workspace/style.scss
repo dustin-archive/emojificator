@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+// variables
+$size: 256px;
+
+// computed variables
+
+.workspace-canvas {
+  width: $size;
+  height: $size;
+  margin: auto;
+  border: solid 2px $mono-2;
+  border-radius: 4px;
+  background: $white;
+  box-shadow: 0 8px 32px $mono-1;
+}
+
+.workspace {
+  display: flex;
+}

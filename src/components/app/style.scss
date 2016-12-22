@@ -1,0 +1,24 @@
+@import '../../variables.scss';
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {}
+
+body {}
+
+.app {
+  display: flex;
+  height: 100%;
+  color: $mono;
+  background: $mono-1;
+
+  > * {
+    flex: 1;
+  }
+}
