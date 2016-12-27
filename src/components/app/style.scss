@@ -13,8 +13,10 @@ html, body {
 // body {}
 
 .app {
+  $padding: 8px;
   display: flex;
-  height: 100%;
+  height: calc(100% - (#{$padding} * 2));
+  padding: $padding;
   color: $mono;
   background: $mono-1;
 
