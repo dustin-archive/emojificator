@@ -6,9 +6,11 @@ Vue.use(Vuex)
 
 new Vue({
   el: '#root',
-  store: new Vuex.Store({ modules: {
-    test: require('./store/test')
-  }}),
+  store: new Vuex.Store({
+    modules: {
+      test: require('./store/test')
+    }
+  }),
   render: function (h) {
     return h(app)
   }
