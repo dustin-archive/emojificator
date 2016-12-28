@@ -3,6 +3,7 @@
 <template>
   <div class='manager-item'>
     <div class='manager-item-thumb'></div>
-    hello
+    <div class='manager-item-title'>hello</div>
+    <div class='manager-item-trash'></div>
   </div>
 </template>

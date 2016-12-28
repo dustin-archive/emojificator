@@ -1,8 +1,20 @@
 @import '../../variables.scss';
 
+.manager-item-trash,
 .manager-item-thumb {
   width: 32px;
   height: 32px;
+}
+
+.manager-item-trash {
+  background: red; // temporary color
+}
+
+.manager-item-title {
+  margin: auto;
+}
+
+.manager-item-thumb {
   background: $white; // checkered for transparency?
 }
 
