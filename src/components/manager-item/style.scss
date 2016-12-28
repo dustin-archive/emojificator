@@ -1,5 +1,13 @@
 @import '../../variables.scss';
 
+.manager-item-thumb {
+  width: 32px;
+  height: 32px;
+  background: $white; // checkered for transparency?
+}
+
 .manager-item {
+  display: flex;
+  padding: 8px;
   background: $mono-1;
 }
