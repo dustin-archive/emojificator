@@ -15,7 +15,9 @@
 }
 
 .manager-item-thumb {
-  background: $white; // checkered for transparency?
+  background-color: $white; // checkered for transparency?
+  background-image: url('../assets/emoji/pineapple.png'); // temporary image
+  background-size: contain;
 }
 
 .manager-item {
