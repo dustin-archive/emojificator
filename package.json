@@ -7,23 +7,25 @@
     "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
     "serve": "http-server -o -s -c 1 -a localhost",
     "dev": "run-p watchify serve",
-    "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js"
+    "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js",
+    "force-update": "npm install --save mint-sass pilot-reset vue vuex",
+    "force-update-dev": "npm install --save-dev browserify browserify-hmr cross-env envify http-server node-sass npm-run-all uglify-js vueify watchify"
   },
   "dependencies": {
-    "vue": "^2.0.1",
-    "vuex": "^2.0.0"
+    "vue": "^2.1.8",
+    "vuex": "^2.1.1"
   },
   "devDependencies": {
-    "browserify": "^13.0.1",
-    "browserify-hmr": "^0.3.1",
-    "cross-env": "^1.0.6",
-    "envify": "^3.4.1",
+    "browserify": "^13.1.1",
+    "browserify-hmr": "^0.3.5",
+    "cross-env": "^3.1.3",
+    "envify": "^4.0.0",
     "http-server": "^0.9.0",
-    "node-sass": "^4.0.0",
-    "npm-run-all": "^2.1.2",
-    "uglify-js": "^2.5.0",
-    "vueify": "^9.1.0",
-    "watchify": "^3.4.0"
+    "node-sass": "^4.1.1",
+    "npm-run-all": "^3.1.2",
+    "uglify-js": "^2.7.5",
+    "vueify": "^9.4.0",
+    "watchify": "^3.8.0"
   },
   "browserify": {
     "transform": [
