@@ -8,7 +8,7 @@
     "serve": "http-server -o -s -c 1 -a localhost",
     "dev": "run-p watchify serve",
     "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js",
-    "force-update": "npm install --save mint-sass pilot-reset vue vuex",
+    "force-update": "npm install --save vue vuex",
     "force-update-dev": "npm install --save-dev browserify browserify-hmr cross-env envify http-server node-sass npm-run-all uglify-js vueify watchify"
   },
   "dependencies": {
