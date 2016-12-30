@@ -3,7 +3,8 @@
 <template>
   <div class='workspace'>
     <div class='workspace-canvas _panel'>
-      <img src='../../assets/emoji/pineapple.png'>
+      <!-- <img src='../../assets/emoji/pineapple.png'> -->
+      <canvas ref='canvas'></canvas>
     </div>
   </div>
 </template>
