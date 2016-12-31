@@ -1,6 +1,5 @@
 var Vue = require('vue'),
-    Vuex = require('vuex'),
-    app = require('./components/app/main.vue')
+    Vuex = require('vuex')
 
 Vue.use(Vuex)
 
@@ -12,6 +11,6 @@ new Vue({
     }
   }),
   render: function (h) {
-    return h(app)
+    return h(require('./components/app/main.vue'))
   }
 })
