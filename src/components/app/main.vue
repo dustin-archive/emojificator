@@ -2,8 +2,11 @@
 <script src='script.js'></script>
 <template>
   <div class='app'>
-    <picker></picker>
-    <workspace></workspace>
-    <manager></manager>
+    <palette></palette>
+    <div class='app-inner'>
+      <picker></picker>
+      <workspace></workspace>
+      <manager></manager>
+    </div>
   </div>
 </template>

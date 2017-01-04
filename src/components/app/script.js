@@ -6,6 +6,7 @@ module.exports = {
   },
   components: {
     manager: require('../manager/main.vue'),
+    palette: require('../palette/main.vue'),
     picker: require('../picker/main.vue'),
     workspace: require('../workspace/main.vue')
   }
